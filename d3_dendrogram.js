@@ -37,8 +37,8 @@ options = {
 	branchDistance: #,				// defines the distance between each level of the dendrogram; higher numbers mean more spacing; defaults to 75
 	duration: #,					// length of time for the animation of updating the dendrogram; defaults to 350; note that filterNodes function uses an animation 100ms shorter than the provided duration value (but never less than 25ms)
 	center: "",						// ID (as listed in the dataset) of the node to be rendered as root at the center of the dendrogram; defaults to the outermost element in the dataset
-	branchColor: "#000000",			// hexadecimal reference for the color of branch (non-terminal) nodes; defaults to "#FFD966"; can be changed when calling updateDendrogramOptions()
-	leafColor: "#000000",			// hexadecimal reference for the color of leaf (terminal) nodes; defaults to "#FD9500"; can be changed when calling updateDendrogramOptions()
+	branchColor: "#000000",			// hexadecimal reference for the color of branch (non-terminal) nodes; defaults to "#FFD966"
+	leafColor: "#000000",			// hexadecimal reference for the color of leaf (terminal) nodes; defaults to "#FD9500"
 	nodeSize: decimal,				// size for the circles plotted for each node; defaults to 6.5
 	symbols: boolean,				// whether to include +/- symbols on the nodes to indicate they are expandable/collapsible; defaults to true
 	events: {
